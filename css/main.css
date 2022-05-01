@@ -1,0 +1,998 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.navbar {
+  width: 99.5%;
+  height: 120px;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0px 3px 12px rgba(18, 18, 18, 0.06);
+          box-shadow: 0px 3px 12px rgba(18, 18, 18, 0.06);
+}
+
+.navbar .logo {
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #FF5634;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.navbar .home {
+  position: absolute;
+  left: 45%;
+  top: 8%;
+}
+
+.navbar .about {
+  position: absolute;
+  left: 50%;
+  top: 8%;
+}
+
+.navbar .pricing {
+  position: absolute;
+  left: 55%;
+  top: 8%;
+}
+
+.navbar .pages {
+  position: absolute;
+  left: 61%;
+  top: 8%;
+}
+
+.navbar .cart {
+  position: absolute;
+  left: 67%;
+  top: 8%;
+}
+
+.navbar .dowland {
+  width: 130px;
+  height: 56px;
+  border-radius: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: transparent;
+  position: absolute;
+  left: 73%;
+  top: 5%;
+}
+
+.navbar .dowland:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+          box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+}
+
+.navbar .Register {
+  width: 114px;
+  height: 56px;
+  background: #FF5634;
+  border: 1px solid #FF5634;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 12px;
+  color: #fff;
+  position: absolute;
+  left: 84%;
+  top: 5%;
+}
+
+.navbar .Register:hover {
+  cursor: pointer;
+}
+
+.header .deliver {
+  color: #FF5634;
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+
+.header .Delicious {
+  position: absolute;
+  left: 10%;
+  top: 33%;
+}
+
+.header .eget {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+}
+
+.header .register {
+  background: #FF5634;
+  border: 1px solid #FF5634;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 16px;
+  height: 73px;
+  width: 180px;
+  color: #fff;
+  left: 10%;
+  position: absolute;
+  top: 63%;
+}
+
+.header .register:hover {
+  cursor: pointer;
+}
+
+.header .dowland {
+  width: 180px;
+  height: 73px;
+  border: 1px solid #EDEDED;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+          box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+  border-radius: 16px;
+  position: absolute;
+  left: 25%;
+  top: 63%;
+}
+
+.header .dowland:hover {
+  cursor: pointer;
+}
+
+.header hr {
+  width: 550px;
+  position: absolute;
+  left: 10%;
+  top: 80%;
+}
+
+.header .friame {
+  position: absolute;
+  left: 10%;
+  top: 85%;
+}
+
+.header .food {
+  width: 340px;
+  position: absolute;
+  left: 74.8%;
+}
+
+.header .phone {
+  position: absolute;
+  width: 240px;
+  left: 65%;
+  top: 25%;
+}
+
+.header .Trusted {
+  color: gray;
+  position: absolute;
+  top: 120%;
+  left: 30%;
+}
+
+.header .resturant {
+  width: 800px;
+  position: absolute;
+  left: 17%;
+  top: 130%;
+}
+
+.header .hr {
+  width: 1000px;
+  position: absolute;
+  top: 140%;
+}
+
+.frame p {
+  color: #FF5634;
+  position: absolute;
+  left: 45%;
+  top: 160%;
+}
+
+.frame h1 {
+  text-align: center;
+  top: 165%;
+  left: 33%;
+  position: absolute;
+}
+
+.frame .delevery {
+  position: absolute;
+  top: 173%;
+  left: 38%;
+}
+
+.frame .lorem {
+  font-size: 13px;
+  color: black;
+  position: absolute;
+  left: 25%;
+  top: 190%;
+}
+
+.frame .quis {
+  color: #656565;
+  position: absolute;
+  top: 194%;
+  left: 67%;
+  font-size: 18px;
+}
+
+.frame .mobile_phone {
+  position: absolute;
+  top: 210%;
+  left: 10%;
+  width: 300px;
+}
+
+.frame .home {
+  position: absolute;
+  top: 210%;
+  left: 38%;
+  width: 300px;
+}
+
+.frame .motorbike {
+  width: 300px;
+  position: absolute;
+  left: 65%;
+  top: 210%;
+}
+
+.frame .Register {
+  width: 180px;
+  height: 73px;
+  background: #FF5634;
+  border: 1px solid #FF5634;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  border-radius: 16px;
+  position: absolute;
+  top: 280%;
+  left: 35%;
+  cursor: pointer;
+}
+
+.frame .dowland {
+  width: 180px;
+  height: 73px;
+  position: absolute;
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+          box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+  border-radius: 16px;
+  top: 280%;
+  left: 50%;
+  cursor: pointer;
+}
+
+.frame hr {
+  width: 1100px;
+  position: absolute;
+  top: 320%;
+  left: 10%;
+}
+
+.main_section h1 {
+  position: absolute;
+  top: 350%;
+  left: 10%;
+}
+
+.main_section .phone1 {
+  width: 230px;
+  position: absolute;
+  top: 345%;
+  left: 65%;
+}
+
+.main_section .burger {
+  position: absolute;
+  top: 340%;
+  width: 350px;
+  left: 74%;
+}
+
+.main_section .learn {
+  position: absolute;
+  top: 340%;
+  left: 10%;
+  width: 480px;
+}
+
+.main_section .Register {
+  width: 180px;
+  height: 73px;
+  background: #FF5634;
+  border: 1px solid #FF5634;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  border-radius: 16px;
+  position: absolute;
+  top: 430%;
+  left: 35%;
+  cursor: pointer;
+}
+
+.main_section .dowland {
+  width: 180px;
+  height: 73px;
+  position: absolute;
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+          box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+  border-radius: 16px;
+  top: 430%;
+  left: 50%;
+  cursor: pointer;
+}
+
+.main_section_one {
+  background: url(../image/background.png);
+  position: absolute;
+  height: 850px;
+  width: 100%;
+  top: 470%;
+}
+
+.main_section_one h1 {
+  color: #fff;
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  font-size: 45px;
+}
+
+.main_section_one p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #fff;
+  left: 10%;
+  position: absolute;
+  top: 60%;
+}
+
+.main_section_one .image {
+  position: absolute;
+  left: 76%;
+}
+
+.main_section_one .pizza {
+  position: absolute;
+  left: 76%;
+  top: 4.5%;
+}
+
+.main_section_one .orange {
+  position: absolute;
+  left: 76%;
+  top: 43.5%;
+}
+
+.main_section_one .hotdog {
+  position: absolute;
+  left: 76%;
+  top: 83.5%;
+}
+
+.main_section_one .pomidor {
+  position: absolute;
+  left: 50%;
+}
+
+.main_section_one .gamburger {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+}
+
+.main_section_one .sous {
+  position: absolute;
+  left: 50%;
+  top: 59%;
+}
+
+.main_section_one .IMAGE1 {
+  position: absolute;
+  left: 50%;
+  top: 98.7%;
+}
+
+.main_section_two .Our {
+  position: absolute;
+  color: #FF5634;
+  left: 45%;
+  top: 630%;
+}
+
+.main_section_two .Learn {
+  position: absolute;
+  left: 30%;
+  top: 640%;
+}
+
+.main_section_two .customers {
+  position: absolute;
+  left: 40%;
+  top: 650%;
+}
+
+.main_section_two .Lorem {
+  position: absolute;
+  left: 25%;
+  top: 660%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.main_section_two .mototsikl {
+  position: absolute;
+  left: 7%;
+  top: 680%;
+}
+
+.main_section_two .Safely {
+  position: absolute;
+  left: 38%;
+  top: 680%;
+}
+
+.main_section_two .special {
+  position: absolute;
+  left: 69%;
+  top: 680%;
+}
+
+.main_section_two .dished {
+  position: absolute;
+  left: 7%;
+  top: 730%;
+}
+
+.main_section_two .resturants {
+  position: absolute;
+  left: 38%;
+  top: 730%;
+}
+
+.main_section_two .much_more {
+  position: absolute;
+  left: 69%;
+  top: 730%;
+}
+
+.main_section_two .Register {
+  width: 180px;
+  height: 73px;
+  background: #FF5634;
+  border: 1px solid #FF5634;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  border-radius: 16px;
+  position: absolute;
+  top: 780%;
+  left: 35%;
+  cursor: pointer;
+}
+
+.main_section_two .dowland {
+  width: 180px;
+  height: 73px;
+  position: absolute;
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+          box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+  border-radius: 16px;
+  top: 780%;
+  left: 50%;
+  cursor: pointer;
+}
+
+.main_selection .background_one {
+  position: absolute;
+  top: 830%;
+  left: 10%;
+  width: 450px;
+}
+
+.main_selection .person {
+  position: absolute;
+  top: 850%;
+  left: 13%;
+  width: 350px;
+}
+
+.main_selection .Hassle {
+  position: absolute;
+  top: 835%;
+  left: 50%;
+}
+
+.main_selection .Bibendum {
+  position: absolute;
+  top: 855%;
+  left: 50%;
+}
+
+.main_selection .order {
+  position: absolute;
+  top: 873%;
+  left: 50%;
+  width: 500px;
+}
+
+.main_selection .background_two {
+  position: absolute;
+  top: 930%;
+  width: 450px;
+  left: 55%;
+}
+
+.main_selection .burger_one {
+  width: 380px;
+  top: 950%;
+  left: 55%;
+  position: absolute;
+}
+
+.main_selection .Super {
+  position: absolute;
+  top: 940%;
+  left: 10%;
+}
+
+.main_selection .from {
+  position: absolute;
+  top: 980%;
+  width: 500px;
+  left: 10%;
+}
+
+.main_selection .Bibendum1 {
+  left: 10%;
+  position: absolute;
+  top: 960%;
+}
+
+.card {
+  background: url(../image/background_two.png);
+  height: 1000px;
+  width: 100%;
+  position: absolute;
+  top: 1050%;
+}
+
+.card .What {
+  position: absolute;
+  top: 20%;
+  left: 7%;
+}
+
+.card .Lorem {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  top: 28%;
+  position: absolute;
+  left: 7%;
+}
+
+.card .Register {
+  position: absolute;
+  background: #FF5634;
+  border: 1px solid #FF5634;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 16px;
+  width: 247px;
+  height: 73px;
+  color: #fff;
+  left: 60%;
+  top: 20%;
+}
+
+.card .Download {
+  position: absolute;
+  width: 205px;
+  height: 73px;
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+          box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+  border-radius: 16px;
+  left: 80%;
+  top: 20%;
+}
+
+.card .card_one {
+  background: url(../image/card_background.png);
+  height: 268px;
+  width: 390px;
+  left: 7%;
+  position: absolute;
+  border-radius: 30px;
+  top: 35%;
+}
+
+.card .card_one .John {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.card .card_one .quatrangle {
+  position: absolute;
+  top: 10%;
+  left: 75%;
+}
+
+.card .card_one .lorem {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  position: absolute;
+  left: 10%;
+  top: 45%;
+}
+
+.card .card_two {
+  background: url(../image/card_background.png);
+  height: 268px;
+  width: 390px;
+  left: 37%;
+  position: absolute;
+  border-radius: 30px;
+  top: 35%;
+}
+
+.card .card_two .John {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.card .card_two .quatrangle {
+  position: absolute;
+  top: 10%;
+  left: 75%;
+}
+
+.card .card_two .lorem {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  position: absolute;
+  left: 10%;
+  top: 45%;
+}
+
+.card .card_three {
+  background: url(../image/card_background.png);
+  height: 268px;
+  width: 390px;
+  left: 67%;
+  position: absolute;
+  border-radius: 30px;
+  top: 35%;
+}
+
+.card .John {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.card .quatrangle {
+  position: absolute;
+  top: 10%;
+  left: 75%;
+}
+
+.card .lorem {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  position: absolute;
+  left: 10%;
+  top: 45%;
+}
+
+.card .card_four {
+  background: url(../image/card_background.png);
+  height: 268px;
+  width: 390px;
+  left: 7%;
+  position: absolute;
+  border-radius: 30px;
+  top: 65%;
+}
+
+.card .card_five {
+  background: url(../image/card_background.png);
+  height: 268px;
+  width: 390px;
+  left: 37%;
+  position: absolute;
+  border-radius: 30px;
+  top: 65%;
+}
+
+.card .card_six {
+  background: url(../image/card_background.png);
+  height: 268px;
+  width: 390px;
+  left: 67%;
+  position: absolute;
+  border-radius: 30px;
+  top: 65%;
+}
+
+.customers_section {
+  position: absolute;
+  background: url(../image/background.png);
+  height: 680px;
+  width: 100%;
+  top: 1230%;
+}
+
+.customers_section .Start {
+  position: absolute;
+  color: #fff;
+  left: 10%;
+  top: 10%;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 66px;
+}
+
+.customers_section p {
+  color: #fff;
+  left: 10%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  position: absolute;
+  top: 33%;
+}
+
+.customers_section button {
+  width: 242px;
+  height: 72px;
+  background: #FF5634;
+  border: 1px solid #FF5634;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 16px;
+  color: #fff;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+}
+
+.customers_section img {
+  position: absolute;
+  left: 44.4%;
+  width: 750px;
+  top: -10%;
+}
+
+.footer .logo {
+  left: 10%;
+  position: absolute;
+  top: 1350%;
+}
+
+.footer .Lorem {
+  position: absolute;
+  top: 1360%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: #656565;
+  left: 10%;
+}
+
+.footer .Download {
+  position: absolute;
+  width: 208px;
+  top: 1355%;
+  left: 60%;
+  color: #fff;
+  height: 66px;
+  background: #FF5634;
+  border: 1px solid #FF5634;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.footer .Android {
+  width: 251px;
+  position: absolute;
+  height: 66px;
+  background: #FF5634;
+  border: 1px solid #FF5634;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 14px;
+  cursor: pointer;
+  top: 1355%;
+  left: 77%;
+  color: #fff;
+}
+
+.footer hr {
+  position: absolute;
+  width: 1150px;
+  top: 1380%;
+  left: 10%;
+}
+
+.footer .Menu {
+  position: absolute;
+  top: 1400%;
+  left: 10%;
+}
+
+.footer a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: #656565;
+  position: absolute;
+  top: 1410%;
+  left: 10%;
+}
+
+.footer p {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 1410%;
+  left: 25%;
+  color: #656565;
+}
+
+.footer .Plan {
+  position: absolute;
+  top: 1415%;
+}
+
+.footer .Register {
+  position: absolute;
+  top: 1420%;
+}
+
+.footer .About {
+  position: absolute;
+  top: 1415%;
+}
+
+.footer .Contact {
+  position: absolute;
+  top: 1420%;
+}
+
+.footer .Blog {
+  position: absolute;
+  top: 1425%;
+}
+
+.footer .posts {
+  position: absolute;
+  top: 1430%;
+}
+
+.footer .Utility {
+  position: absolute;
+  top: 1400%;
+  left: 45%;
+}
+
+.footer .Utility1 .Start {
+  position: absolute;
+  top: 1410%;
+  left: 45%;
+}
+
+.footer .Utility1 .Styleguide {
+  position: absolute;
+  top: 1415%;
+  left: 45%;
+}
+
+.footer .Utility1 .Password {
+  position: absolute;
+  top: 1420%;
+  left: 45%;
+}
+
+.footer .Utility1 .Not {
+  position: absolute;
+  top: 1425%;
+  left: 45%;
+}
+
+.footer .Utility1 .Licenses {
+  position: absolute;
+  top: 1430%;
+  left: 45%;
+}
+
+.footer .Utility1 .Changelog {
+  position: absolute;
+  top: 1435%;
+  left: 45%;
+}
+
+.footer .Available {
+  position: absolute;
+  top: 1400%;
+  left: 70%;
+}
+
+.footer .Available .img {
+  position: absolute;
+  top: 50px;
+  width: 400px;
+}
+
+.footer .hr {
+  position: absolute;
+  width: 1100px;
+  top: 1450%;
+}
+
+.footer .Copyright {
+  position: absolute;
+  top: 1460%;
+}
+
+.footer .Copyright span {
+  color: #FF5634;
+}
+
+@media (max-width: 1440px) {
+  .conatiner {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
