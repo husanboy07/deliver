@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.navbar{
+    h3{
+        font-size: 17px;
+        position: absolute;
+        left: 5%;
+        top: 2%;
+    }
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000;
+        
+    }
+    a:hover{
+        color: gray;
+    }
+    .nav-link{
+        position: absolute;
+        left: 80%;
+        top: 2%;
+    }
+    .nav-link-info{
+        position: absolute;
+        left: 90%;
+        top: 2%;
+    }
+}
+
+.header{
+    .girl{
+        position: absolute;
+        width: 1200px;
+        left: 5%;
+        top: 8%;
+        height: 665px;
+    }
+    .mucik{
+        position: absolute;
+        left: 45%;
+        top: 50%;
+    }
+}
+
+.main-section-card{
+    h3{
+        position: absolute;
+        font-size: 17px;
+        left: 5%;
+        top: 120%;
+    }
+    .willa{
+        width: 570px;
+        position: absolute;
+        top: 130%;
+        left: 5%;
+    }
+    .willa:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.7s;
+        overflow: hidden;
+    }
+    .franklin{
+        position: absolute;
+        width: 570px;
+        top: 130%;
+        left: 51%;
+    }
+    .willage-pt{
+        position: absolute;
+        top: 190%;
+        font-size: 24px;
+        left: 5%;
+    }
+    .Franklin{
+        position: absolute;
+        top: 190%;
+        font-size: 24px;
+        left: 51%;
+    }
+    .franklin:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.7s;
+        overflow: hidden;
+    }
+    .handerson{
+        position: absolute;
+        width: 570px;
+        left: 5%;
+        top: 200%;
+    }
+    .hazelwood{
+        position: absolute;
+        top: 200%;
+        left: 51%;
+        width: 570px;
+    }
+    .handerson:hover{
+        transform: scale(1.1);
+        transition: 0.7s;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .Henderson-one{
+        position: absolute;
+        top: 260%;
+        font-size: 24px;
+        left: 5%;
+    }
+    .hazelwood:hover{
+        transform: scale(1.1);
+        transition: 0.7s;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .Hazelwood-one{
+        position: absolute;
+        top: 260%;
+        left: 51%;
+        font-size: 24px;
+    }
+    .martin-st{
+        position: absolute;
+        width: 570px;
+        top: 270%;
+        left: 5%;
+    }
+    .martin-st:hover{
+        transform: scale(1.1);
+        transition: 0.7s;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .martin{
+        font-size: 24px;
+        position: absolute;
+        top: 330%;
+        left: 5%;
+        font-size: 24px;
+    }
+    .concord{
+        position: absolute;
+        width: 570px;
+        left: 51%;
+        top: 270%;
+    }
+    .concord:hover{
+        transform: scale(1.1);
+        transition: 0.7s;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .concord-one{
+        position: absolute;
+        top: 330%;
+        left: 51%;
+        font-size: 24px;
+    }
+    .housten-st{
+        position: absolute;
+        width: 570px;
+        top: 340%;
+        left: 5%;
+    }
+    .housten-st:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.7s;
+        overflow: hidden;
+    }
+    .Houston{
+        position: absolute;
+        font-size: 24px;
+        top: 400%;
+        left: 5%;
+    }
+    .hillsboro{
+        position: absolute;
+        width: 570px;
+        top: 340%;
+        left: 51%;
+    }
+    .hillsboro:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.7s;
+        overflow: hidden;
+    }
+    .Hillsboro-text{
+        position: absolute;
+        top: 400%;
+        left: 51%;
+        font-size: 24px;
+    }
+    .willow-are{
+        position: absolute;
+        width: 570px;
+        top: 410%;
+        left: 5%;
+    }
+    .willow-are:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.7s;
+        overflow: hidden;
+    }
+    .willow{
+        position: absolute;
+        font-size: 24px;
+        top: 470%;
+        left: 5%;
+    }
+    .brendwood{
+        position: absolute;
+        width: 570px;
+        top: 410%;
+        left: 51%;
+    }
+    .brendwood:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.7s;
+        overflow: hidden;
+    }
+    .Brentwood-text{
+        position: absolute;
+        top: 470%;
+        left: 51%;
+        font-size: 24px;
+    }
+}
+
+.footer{
+    .footer-heading{
+        position: absolute;
+        left: 5%;
+        top: 520%;
+        font-size: 17px;
+    }
+    .footer-paraph{
+        position: absolute;
+        top: 525%;
+        left: 5%;
+        font-size: 17px;
+    }
+    .password{
+        position: absolute;
+        top: 520%;
+        left: 51%;
+        line-height: 30px;
+    }
+    .Licenses{
+        position: absolute;
+        top: 520%;
+        left: 70%;
+        line-height: 30px;
+    }
+    .twitter{
+        position: absolute;
+        top: 520%;
+        left: 89%;
+        color: #000;
+    }
+    .Instagram{
+        position: absolute;
+        top: 525%;
+        left: 89%;
+        color: #000;
+    }
+}
+
+@media(max-width:600px){
+    .container{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+        a{
+            display: none;
+        }
+    }
+}

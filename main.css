@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.navbar h3 {
+  font-size: 17px;
+  position: absolute;
+  left: 5%;
+  top: 2%;
+}
+
+.navbar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.navbar a:hover {
+  color: gray;
+}
+
+.navbar .nav-link {
+  position: absolute;
+  left: 80%;
+  top: 2%;
+}
+
+.navbar .nav-link-info {
+  position: absolute;
+  left: 90%;
+  top: 2%;
+}
+
+.header .girl {
+  position: absolute;
+  width: 1200px;
+  left: 5%;
+  top: 8%;
+  height: 665px;
+}
+
+.header .mucik {
+  position: absolute;
+  left: 45%;
+  top: 50%;
+}
+
+.main-section-card h3 {
+  position: absolute;
+  font-size: 17px;
+  left: 5%;
+  top: 120%;
+}
+
+.main-section-card .willa {
+  width: 570px;
+  position: absolute;
+  top: 130%;
+  left: 5%;
+}
+
+.main-section-card .willa:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  overflow: hidden;
+}
+
+.main-section-card .franklin {
+  position: absolute;
+  width: 570px;
+  top: 130%;
+  left: 51%;
+}
+
+.main-section-card .willage-pt {
+  position: absolute;
+  top: 190%;
+  font-size: 24px;
+  left: 5%;
+}
+
+.main-section-card .Franklin {
+  position: absolute;
+  top: 190%;
+  font-size: 24px;
+  left: 51%;
+}
+
+.main-section-card .franklin:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  overflow: hidden;
+}
+
+.main-section-card .handerson {
+  position: absolute;
+  width: 570px;
+  left: 5%;
+  top: 200%;
+}
+
+.main-section-card .hazelwood {
+  position: absolute;
+  top: 200%;
+  left: 51%;
+  width: 570px;
+}
+
+.main-section-card .handerson:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.main-section-card .Henderson-one {
+  position: absolute;
+  top: 260%;
+  font-size: 24px;
+  left: 5%;
+}
+
+.main-section-card .hazelwood:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.main-section-card .Hazelwood-one {
+  position: absolute;
+  top: 260%;
+  left: 51%;
+  font-size: 24px;
+}
+
+.main-section-card .martin-st {
+  position: absolute;
+  width: 570px;
+  top: 270%;
+  left: 5%;
+}
+
+.main-section-card .martin-st:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.main-section-card .martin {
+  font-size: 24px;
+  position: absolute;
+  top: 330%;
+  left: 5%;
+  font-size: 24px;
+}
+
+.main-section-card .concord {
+  position: absolute;
+  width: 570px;
+  left: 51%;
+  top: 270%;
+}
+
+.main-section-card .concord:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.main-section-card .concord-one {
+  position: absolute;
+  top: 330%;
+  left: 51%;
+  font-size: 24px;
+}
+
+.main-section-card .housten-st {
+  position: absolute;
+  width: 570px;
+  top: 340%;
+  left: 5%;
+}
+
+.main-section-card .housten-st:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  overflow: hidden;
+}
+
+.main-section-card .Houston {
+  position: absolute;
+  font-size: 24px;
+  top: 400%;
+  left: 5%;
+}
+
+.main-section-card .hillsboro {
+  position: absolute;
+  width: 570px;
+  top: 340%;
+  left: 51%;
+}
+
+.main-section-card .hillsboro:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  overflow: hidden;
+}
+
+.main-section-card .Hillsboro-text {
+  position: absolute;
+  top: 400%;
+  left: 51%;
+  font-size: 24px;
+}
+
+.main-section-card .willow-are {
+  position: absolute;
+  width: 570px;
+  top: 410%;
+  left: 5%;
+}
+
+.main-section-card .willow-are:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  overflow: hidden;
+}
+
+.main-section-card .willow {
+  position: absolute;
+  font-size: 24px;
+  top: 470%;
+  left: 5%;
+}
+
+.main-section-card .brendwood {
+  position: absolute;
+  width: 570px;
+  top: 410%;
+  left: 51%;
+}
+
+.main-section-card .brendwood:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  overflow: hidden;
+}
+
+.main-section-card .Brentwood-text {
+  position: absolute;
+  top: 470%;
+  left: 51%;
+  font-size: 24px;
+}
+
+.footer .footer-heading {
+  position: absolute;
+  left: 5%;
+  top: 520%;
+  font-size: 17px;
+}
+
+.footer .footer-paraph {
+  position: absolute;
+  top: 525%;
+  left: 5%;
+  font-size: 17px;
+}
+
+.footer .password {
+  position: absolute;
+  top: 520%;
+  left: 51%;
+  line-height: 30px;
+}
+
+.footer .Licenses {
+  position: absolute;
+  top: 520%;
+  left: 70%;
+  line-height: 30px;
+}
+
+.footer .twitter {
+  position: absolute;
+  top: 520%;
+  left: 89%;
+  color: #000;
+}
+
+.footer .Instagram {
+  position: absolute;
+  top: 525%;
+  left: 89%;
+  color: #000;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .navbar a {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
